@@ -7,21 +7,32 @@
 //
 
 #import "ViewController.h"
+#import "ResultViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextView *tvData;
 
 @end
 
 @implementation ViewController
+{
+    ResultViewController * resultView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"Input Text & Count";
+    
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    
+    resultView = [ResultViewController new];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)onBtnCountWordTouchUpInside:(id)sender {
+    resultView.data = [self.tvData.text lowercaseString];
+    
+    [self.navigationController pushViewController:resultView animated:YES];
 }
 
 @end

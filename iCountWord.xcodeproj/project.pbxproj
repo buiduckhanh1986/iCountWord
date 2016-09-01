@@ -13,6 +13,7 @@
 		600A22451D77E1F600E85CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600A22431D77E1F600E85CB5 /* Main.storyboard */; };
 		600A22471D77E1F600E85CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600A22461D77E1F600E85CB5 /* Assets.xcassets */; };
 		600A224A1D77E1F600E85CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600A22481D77E1F600E85CB5 /* LaunchScreen.storyboard */; };
+		600A22531D77E64200E85CB5 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600A22521D77E64200E85CB5 /* ResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		600A22461D77E1F600E85CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		600A22491D77E1F600E85CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		600A224B1D77E1F600E85CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		600A22511D77E64200E85CB5 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		600A22521D77E64200E85CB5 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		600A22391D77E1F600E85CB5 /* iCountWord */ = {
 			isa = PBXGroup;
 			children = (
+				600A22511D77E64200E85CB5 /* ResultViewController.h */,
+				600A22521D77E64200E85CB5 /* ResultViewController.m */,
 				600A223D1D77E1F600E85CB5 /* AppDelegate.h */,
 				600A223E1D77E1F600E85CB5 /* AppDelegate.m */,
 				600A22401D77E1F600E85CB5 /* ViewController.h */,
@@ -152,6 +157,7 @@
 				600A22421D77E1F600E85CB5 /* ViewController.m in Sources */,
 				600A223F1D77E1F600E85CB5 /* AppDelegate.m in Sources */,
 				600A223C1D77E1F600E85CB5 /* main.m in Sources */,
+				600A22531D77E64200E85CB5 /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
